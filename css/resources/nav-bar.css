@@ -1,0 +1,21 @@
+.nav-bar {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background: #1a9c6b;   
+    display: flex;
+    align-self: center;
+}
+
+.nav-bar a {
+    padding: 15px;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar a:hover {
+    background-color: #21b17a;
+}

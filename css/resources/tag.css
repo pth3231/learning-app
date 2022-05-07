@@ -1,0 +1,36 @@
+.tag {
+    background: #dfdfdf;
+    margin: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.tag h2 {
+    align-content: center;
+    margin-right: 20px;
+    line-height: 41px;
+}
+
+.tag img {
+    margin: 10px;
+}
+
+.tag .link {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: cadetblue;
+    padding: 10px 20px;
+    width: 100px;
+    border: 1px solid cadetblue;
+    border-radius: 2px;
+}
+
+.tag link:hover {
+    transition: 0.2s;
+    color: white;
+    background-color: #32e6a3;
+    border: 1px solid cadetblue;
+    border-radius: 2px;
+}

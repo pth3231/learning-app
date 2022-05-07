@@ -1,0 +1,56 @@
+:root {
+    --container-height: 750px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.container {
+    height: var(--container-height);
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.home-wall {
+    height: 750px;
+    width: 100%;
+    background-image: url(../public/img/home_wall.png);
+}
+
+.home-header {
+    height: 100%;
+    width: 100%;
+}
+
+.home-header .home-title {
+    font-size: 30px;
+    color: white;
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .align {
+    width: 10%;
+}
+
+.container .center {
+    width: 80%;
+}

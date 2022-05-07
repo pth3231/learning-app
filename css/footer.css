@@ -1,0 +1,33 @@
+footer{
+    padding: 10px;
+    display: flex;
+    color: white;
+    background: #128057;
+    border-radius: 2px;
+}
+
+footer .getting-started {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer .getting-started a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: cadetblue;
+    padding: 10px 20px;
+    border: 1px solid cadetblue;
+    border-radius: 2px;
+}
+
+footer .getting-started a:hover{
+    transition: 0.2s;
+    color: white;
+    background-color: #32e6a3;
+    border: 1px solid cadetblue;
+    border-radius: 2px;
+}
